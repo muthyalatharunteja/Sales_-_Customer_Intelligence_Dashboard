@@ -1,21 +1,32 @@
 # 📊 Retail Sales & Customer Intelligence Dashboard
 
-End-to-end Business Intelligence dashboard built using Tableau and Excel to analyze retail sales performance, profitability, and customer behavior across 2022–2023.
+End-to-end Business Intelligence dashboards built using Tableau and Excel to analyze retail sales performance, profitability, and customer behavior.
 
-This project transforms raw transactional data into executive KPIs and actionable insights to support pricing, retention, and product strategy decisions.
+This project transforms 64K+ raw retail transactions into executive KPIs and interactive dashboards that support data-driven business decisions around revenue growth, customer retention, and margin optimization.
 
 ---
 
 ## 🚀 Objective
 
-Retail data was spread across raw Excel files with limited visibility into performance.
+Retail transaction data was stored in multiple raw files with no centralized reporting.
 
-The goal was to answer key business questions:
+The goal was to design an interactive BI solution that helps answer:
 
 - What drives revenue vs profit?
-- Which customers contribute the most value?
-- Where are margins being lost?
-- How is performance trending over time?
+- Which customers generate the most value?
+- Where are margins being eroded?
+- How does performance trend over time?
+
+---
+
+## 📂 Dataset Overview
+
+- 64,105 transaction-level sales records
+- 1,000 customers
+- Multiple orders across 2 years
+- Separate customer, order, and sales datasets
+
+The data required cleaning, transformation, and KPI engineering before analysis.
 
 ---
 
@@ -26,17 +37,7 @@ The goal was to answer key business questions:
 - Power Query
 - KPI Design
 - Trend & YoY Analysis
-- Customer Analytics
-
----
-
-## 📂 Dataset Overview
-
-- 693 customers
-- 1,687 orders
-- $733K total sales
-- $93K total profit
-- 2 years of retail transactions
+- Customer & Sales Analytics
 
 ---
 
@@ -45,60 +46,61 @@ The goal was to answer key business questions:
 ### 1. Data Preparation (Excel / Power Query)
 - Removed duplicates and inconsistencies
 - Standardized dates and formats
-- Created time-based features (month, week, YoY)
-- Built calculated metrics and KPIs
+- Created time-based features (Month, Week, YoY)
+- Merged customer, orders, and sales tables
+- Engineered calculated KPIs
 
 ### 2. KPI Development
-Designed core business metrics:
-- Sales
+Built core business metrics:
+- Total Sales
 - Profit
 - Orders
 - Customers
 - YoY Growth %
 - Average Sales per Customer
-- Repeat Rate
+- Repeat Purchase Rate
 
 ### 3. Dashboard Development (Tableau)
-Built two interactive dashboards:
+Developed two interactive dashboards:
 
-✔ Sales Performance  
-✔ Customer Performance  
+✔ Sales Performance Dashboard  
+✔ Customer Performance Dashboard  
 
-Features:
+Features include:
 - Executive KPI scorecards
 - Monthly & weekly trends
 - Seasonality detection
 - Sales vs Profit by subcategory
-- Customer segmentation & repeat analysis
-- Drill-down filtering
+- Customer segmentation & repeat behavior analysis
+- Drill-down filtering for root-cause exploration
 
 ---
 
 ## 🔍 Key Insights
 
-- Top ~20% of customers generated ~65% of total profit (customer concentration)
-- Repeat customers delivered significantly higher lifetime value
-- Several high-volume product categories were operating at low/negative margins
-- Clear seasonal peaks and slow-demand periods identified
+- Top ~20% of customers generated ~65% of total profit (customer concentration risk)
+- Repeat customers showed significantly higher lifetime value
+- Several high-volume products operated at low or negative margins
+- Identified seasonal demand spikes and slow periods
 
 ---
 
 ## 💼 Business Impact
 
 - Consolidated multiple manual Excel reports into one interactive dashboard
-- Reduced analysis time and improved reporting clarity
-- Enabled faster, data-driven decision-making
-- Supported pricing, retention, and product optimization strategies
+- Reduced analysis and reporting time
+- Improved visibility into profitability drivers
+- Enabled smarter decisions around pricing, retention, and product strategy
 
 ---
 
-## 📸 Dashboard Previews
+## 📸 Dashboard Preview
 
 ### Customer Performance Dashboard
-(Add screenshot here: /images/customer-dashboard.png)
+(Add image: /images/customer-dashboard.png)
 
 ### Sales Performance Dashboard
-(Add screenshot here: /images/sales-dashboard.png)
+(Add image: /images/sales-dashboard.png)
 
 ---
 
