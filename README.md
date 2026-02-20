@@ -138,7 +138,7 @@ Features:
 
 ## 🔗 Live Dashboard
 
-Tableau Public: [Sales & Customer Dashboards.twbx]
+Tableau Public: **[Sales & Customer Dashboards.twbx](Sales & Customer Dashboards.twbx)**
 
 ---
 
