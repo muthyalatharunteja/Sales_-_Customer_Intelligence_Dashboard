@@ -110,11 +110,11 @@ Features:
 ## 📊 Dashboard Preview
 
 ### Customer Performance Dashboard
- ![Customer Dashboard](Sales_-_Customer_Intelligence_Dashboard/customer%20dashboard.png)
+ ![Customer Dashboard](customer%20dashboard.png)
 
 
 ### Sales Performance Dashboard
-![sales dashboard.png](Sales_-_Customer_Intelligence_Dashboard/customer%20dashboard.png)
+![sales dashboard.png](/sales%20dashboard.png)
 
 
 ---
