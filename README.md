@@ -110,10 +110,10 @@ Features:
 ## 📊 Dashboard Preview
 
 ### Customer Performance Dashboard
- ![HR Analytics Dashboard](all%20hr.png)
+ ![customer dashboard.png]
 
 ### Sales Performance Dashboard
-
+![sales dashboard.png]
 
 ---
 
